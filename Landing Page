@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Adventures</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header styles */
+        header {
+            background-image: url('path/to/scenic-destination.jpg');
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        /* Main content styles */
+        .featured-destinations {
+            padding: 50px;
+            background-color: #f9f9f9;
+        }
+
+        .testimonial {
+            padding: 30px;
+            background-color: #e0e0e0;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            header {
+                padding: 50px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wanderlust Adventures</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#destinations">Destinations</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button>Explore Now</button>
+    </header>
+
+    <div class="featured-destinations">
+        <!-- Featured destinations section -->
+        <!-- Add images and descriptions here -->
+    </div>
+
+    <div class="testimonial">
+        <!-- Customer testimonials section -->
+        <!-- Add testimonials here -->
+    </div>
+
+    <form>
+        <!-- Newsletter subscription form -->
+        <!-- Add form fields here -->
+    </form>
+
+    <footer>
+        © 2024 Wanderlust Adventures. All rights reserved.
+        <br>
+        Follow us on <a href="#">Facebook</a> and <a href="#">Instagram</a>.
+    </footer>
+</body>
+</html>
