@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Adventures</title>
+    <style>
+        /* CSS styles */
+        /* Reset default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .hero {
+            background-image: url('hero-background.jpg');
+            background-size: cover;
+            text-align: center;
+            color: white;
+            padding: 100px 0;
+        }
+
+        button {
+            background: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        .destinations {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .destination {
+            margin-bottom: 20px;
+        }
+
+        .testimonials {
+            background: #f9f9f9;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .newsletter {
+            background: #333;
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input {
+            padding: 10px;
+            width: 200px;
+            margin-right: 10px;
+        }
+
+        button[type="submit"] {
+            background: #fff;
+            color: #333;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .social-media a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Wanderlust Adventures</h1>
+        <p>Your gateway to unforgettable journeys</p>
+        <button>Explore Now</button>
+    </section>
+
+    <!-- Featured Destinations Section -->
+    <section id="destinations" class="destinations">
+        <h2>Featured Destinations</h2>
+        <div class="destination">
+            <img src="destination1.jpg" alt="Destination 1">
+            <p>Description of Destination 1</p>
+        </div>
+        <div class="destination">
+            <img src="destination2.jpg" alt="Destination 2">
+            <p>Description of Destination 2</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+            <p>"Amazing experience! Will definitely book with Wanderlust Adventures again."</p>
+            <p>- John Doe</p>
+        </div>
+        <div class="testimonial">
+            <p>"The best travel agency I've ever used. Highly recommend!"</p>
+            <p>- Jane Smith</p>
+        </div>
+    </section>
+
+    <!-- Newsletter Subscription Form -->
+    <section class="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form>
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2021 Wanderlust Adventures. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript code can be added here if needed
+    </script>
+</body>
+
+</html>
