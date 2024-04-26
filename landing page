@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wanderlust Adventures</title>
+  <style>
+    /* Add your CSS styles here */
+    /* This is just a simplified example, further styling is recommended */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .hero {
+      background-image: url('scenic-destination.jpg');
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 50px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    .main-body {
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Welcome to Wanderlust Adventures</h1>
+    <a href="#destinations" class="explore-btn">Explore Now</a>
+  </div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="main-body">
+    <section id="destinations">
+      <h2>Featured Destinations</h2>
+      <div class="destination">
+        <img src="destination1.jpg" alt="Destination 1">
+        <p>Description of Destination 1</p>
+      </div>
+      <div class="destination">
+        <img src="destination2.jpg" alt="Destination 2">
+        <p>Description of Destination 2</p>
+      </div>
+      <!-- Add more destinations as needed -->
+    </section>
+    <section id="testimonials">
+      <h2>Customer Testimonials</h2>
+      <div class="testimonial">
+        <p>"Amazing experience! Will definitely book with Wanderlust Adventures again."</p>
+        <p>- John Doe</p>
+      </div>
+      <div class="testimonial">
+        <p>"Incredible service and breathtaking locations. Highly recommended!"</p>
+        <p>- Jane Smith</p>
+      </div>
+      <!-- Add more testimonials as needed -->
+    </section>
+    <section id="newsletter">
+      <h2>Subscribe to Our Newsletter</h2>
+      <form>
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2024 Wanderlust Adventures</p>
+    <div class="social-links">
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+    </div>
+  </footer>
+</body>
+</html>
